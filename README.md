@@ -1,4 +1,4 @@
-# phantom-wallet-api
+# Slap 'n Go API
 Your perfect playground to practice CRUD operations in a safe, simulated e-wallet environment without the risk of real currency.
 
 ##  DELETE /deleteUser/:username
