@@ -85,6 +85,7 @@ The request body must be a JSON object containing the `amount` property. For exa
 <details>
 <summary>Status 200</summary>
 Response content:
+ 
 ```json
 {
   "message": "Transaction for user {username} has been deleted successfully!",
@@ -98,6 +99,7 @@ Response content:
 <details>
 <summary>Status 418</summary>
 Response content:
+ 
  ```json
 {
   "error": "Error Transaction Request: 'amount' is required in request body."
