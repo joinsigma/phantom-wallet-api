@@ -7,7 +7,7 @@ Delete a specific user identified by the `username` parameter.
 
 ### HTTP DELETE Request
 ```
-https://<your-api-url>/deleteUser/:username
+https://e-wallet-api-server.sigma-schoolsc1.repl.co/deleteUser/:username
 ```
 
 ### URL Parameters
