@@ -2,7 +2,7 @@
 Your perfect playground to practice CRUD operations in a safe, simulated e-wallet environment without the risk of real currency.
 
 <details>
-## <summary> DELETE /deleteUser/:username </summary>
+ <## summary> DELETE /deleteUser/:username </summary>
 
 
   Delete a specific user identified by the `username` parameter.
