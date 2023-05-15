@@ -1,17 +1,16 @@
 # phantom-wallet-api
 Your perfect playground to practice CRUD operations in a safe, simulated e-wallet environment without the risk of real currency.
 
+##  DELETE /deleteUser/:username
+Delete a specific user identified by the `username` parameter.
+
+### HTTP DELETE Request
+```
+https://e-wallet-api-server.sigma-schoolsc1.repl.co//users/:username
+```
+
 <details>
- <## summary> DELETE /deleteUser/:username </summary>
-
-
-  Delete a specific user identified by the `username` parameter.
-
-  ### HTTP DELETE Request
-  ```
-  https://e-wallet-api-server.sigma-schoolsc1.repl.co//users/:username
-  ```
-
+ <summary> Parameters, Success and Error responses </summary>
   ### URL Parameters
 
   Parameter | Description
