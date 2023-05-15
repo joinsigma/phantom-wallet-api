@@ -37,7 +37,7 @@ Response content:
   
 ```json
 {
-  "message": "'Invalid API key."
+  "message": "Invalid API key."
 }
 ```
 </details>
@@ -48,7 +48,7 @@ Response content:
   
 ```json
 {
-  "message": "User ${username} not found."
+  "message": "User {username} not found."
 }
 ```
 </details>
