@@ -4,7 +4,7 @@ Your perfect playground to practice CRUD operations in a safe, simulated e-walle
 ##  DELETE /deleteUser/:username
 Delete a specific user identified by the `username` parameter.
 
-### HTTP DELETE Request
+#### HTTP DELETE Request
 ```
 https://e-wallet-api-server.sigma-schoolsc1.repl.co/users/:username
 ```
@@ -61,10 +61,10 @@ https://e-wallet-api-server.sigma-schoolsc1.repl.co/users/:username
 
 Delete a specific transaction for a user identified by the `username` parameter.
 
-### HTTP Delete Transaction Request
+#### HTTP Delete Transaction Request
 https://e-wallet-api-server.sigma-schoolsc1.repl.co/deleteTransaction/:username
 
-### Request Body
+#### Request Body
 The request body must be a JSON object containing the `amount` property. For example:
 ```json
 {
