@@ -7,7 +7,7 @@ Delete a specific user identified by the `username` parameter.
 
 ### HTTP DELETE Request
 ```
-https://e-wallet-api-server.sigma-schoolsc1.repl.co/deleteUser/:username
+https://e-wallet-api-server.sigma-schoolsc1.repl.co//users/:username
 ```
 
 ### URL Parameters
@@ -25,30 +25,30 @@ Response content:
 
 ```json
 {
-  "message": "User deleted successfully."
+  "message": "User {username} has been deleted."
 }
 ```
 </details>
   
 ### Error Responses
 <details>
-<summary>Status 400</summary>
+<summary>Status 403</summary>
 Response content:
   
 ```json
 {
-  "message": "Invalid username."
+  "message": "'Invalid API key."
 }
 ```
 </details>
   
 <details>
-<summary>Status 418</summary>
+<summary>Status 404</summary>
 Response content:
   
 ```json
 {
-  "message": "Username not found."
+  "message": "User ${username} not found."
 }
 ```
 </details>
