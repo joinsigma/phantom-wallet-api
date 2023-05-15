@@ -1,5 +1,5 @@
 # phantom-wallet-api
-A simple simulated e-wallet environment to hone your skills without dealing with real currency. A perfect playground for students to learn, practice, and master their CRUD and API development skills.
+Your perfect playground to practice CRUD operations in a safe, simulated e-wallet environment without the risk of real currency.
 
 ## DELETE /deleteUser/:username
 
@@ -26,20 +26,26 @@ Response content:
 {
   "message": "User deleted successfully."
 }
+```
+
 </details>
 Error Responses
 <details>
 <summary>Status 400</summary>
 Response content:
-
+  
+```json
 {
   "message": "Invalid username."
 }
+```
+
 </details>
 <details>
 <summary>Status 418</summary>
 Response content:
-
+  
+```json
 {
   "message": "Username not found."
 }
