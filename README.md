@@ -5,9 +5,10 @@ Your perfect playground to practice CRUD operations in a safe, simulated e-walle
 
 Delete a specific user identified by the `username` parameter.
 
-### HTTP Request
-
-DELETE https://<your-api-url>/deleteUser/:username
+### HTTP DELETE Request
+```
+https://<your-api-url>/deleteUser/:username
+```
 
 ### URL Parameters
 
