@@ -27,9 +27,9 @@ Response content:
   "message": "User deleted successfully."
 }
 ```
-
 </details>
-Error Responses
+  
+### Error Responses
 <details>
 <summary>Status 400</summary>
 Response content:
@@ -39,8 +39,8 @@ Response content:
   "message": "Invalid username."
 }
 ```
-
 </details>
+  
 <details>
 <summary>Status 418</summary>
 Response content:
@@ -49,5 +49,5 @@ Response content:
 {
   "message": "Username not found."
 }
-</details>
 ```
+</details>
