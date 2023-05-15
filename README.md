@@ -12,7 +12,8 @@ https://e-wallet-api-server.sigma-schoolsc1.repl.co//users/:username
 <details>
  <summary> Parameters, Success and Error responses </summary>
   ### URL Parameters
-
+  ## URL Parameters
+ 
   Parameter | Description
   --------- | -----------
   username  | The username of the user to be deleted.
